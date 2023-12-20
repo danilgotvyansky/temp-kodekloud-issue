@@ -1,0 +1,22 @@
+# env files
+.env
+
+# IDE files
+*.idea
+
+# VS code files
+.vscode/*
+
+#MacOS files
+.DS_Store
+
+# Lock hcl
+*.terraform.lock.hcl
+.terragrunt-cache
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
